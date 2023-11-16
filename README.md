@@ -44,9 +44,14 @@ Practical applications of this method are vast. Social scientists and DAO resear
 
 The method itself employs a multilayered, high-dimensional graph convolutional neural network (GCNN) alongside a rapid vector embeddings search and label propagation technique. This inductive, highly parameterized method has been tested extensively with the [Snapshot.org](http://snapshot.org/) dataset, proving its efficacy in identifying, labeling, clustering, and amalgamating sybil nodes using well-established and intuitive deep learning techniques. Although the method has shown promising results (~10-15% graph reduction), it requires further refinement, validation, and feedback from the wider community to reach its full potential. A visualization from the algorithm-in-progress shows the method’s ability to identify sybil nodes, label and combine them, and to construct a sub-graph of “true identities.” 
 
-Example of size and distribution of [sybil clusters](https://github.com/quinndupont/SybilGovernance/blob/main/Cluster_distribution.png)
+Example of size and distribution of sybil clusters:
+![sybil clusters](https://github.com/quinndupont/SybilGovernance/blob/main/Cluster_distribution.png?raw=true)
 
-Example of graph visualization of [combined sybils](https://github.com/quinndupont/SybilGovernance/blob/main/185000_clustered_graph.png)
+Example of graph visualization of clustered graph with predicted sybils:
+![predicted sybils](https://github.com/quinndupont/SybilGovernance/blob/main/185000_clustered_graph.png?raw=true)
+
+
+
 
 ## Risks and Disclosures
 
