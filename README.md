@@ -1,34 +1,12 @@
 # SybilGovernance
 Experimental Sybil Identification Method using Graph Deep Learning
 
-# Metagov/Gitcoin Proposal
-This proposal requests funding for the next phase of an innovative project aimed at advancing and sharing a deep learning-based method for detecting sybils in Web3 governance voting. Initially funded by York University for one year, this project has successfully led to the creation of a unique method for sybil identification. While sybils, or fabricated identities, support user privacy they come at the cost of obscuring true voting patterns, which frustrates attempts at decentralized, polycentric governance.
+# Proposal
+This innovative project aimed at advancing and sharing a deep learning-based method for detecting sybils in Web3 governance voting. Initially funded by York University for one year, this project has successfully led to the creation of a unique method for sybil identification. While sybils, or fabricated identities, support user privacy they come at the cost of obscuring true voting patterns, which frustrates attempts at decentralized, polycentric governance.
 
-The current stage of research focuses on refining, scaling, and validating the technique, with an emphasis on making it robust, reliable, and practically useful. Additionally, the project seeks to engage with and gather insights from Metagov, Web3, and academic communities. This feedback will be crucial for further improvement and ensuring the method's applicability in real-world scenarios. The end goal is to open-source this refined method, contributing a valuable tool to the field of decentralized governance.
+The current stage of research focuses on refining, scaling, and validating the technique, with an emphasis on making it robust, reliable, and practically useful. Additionally, the project seeks to engage with and gather insights from Web3 and academic communities. This feedback will be crucial for further improvement and ensuring the method's applicability in real-world scenarios. The end goal is to open-source this refined method, contributing a valuable tool to the field of decentralized governance.
 
-## Funds requested and milestones:
-
-January: $5,000
-
-Milestone: Validate and report the method and open source the prepared graph dataset on Github.
-
-February: $5,000
-
-Milestone: Solicit community and peer feedback through Metagov collaboration and verify method and model.
-
-March: $5,000
-
-Milestone: Scholarly journal article submitted for review in open access journal. Open source the refined method and model on Github.
-
-April: $5,000
-
-Milestone: Revisions and scholarly journal article accepted for publication. Project is completed.
-
-## Budget justification:
-
-The requested funds are to provide an additional 4 months of research time for Dr. Quinn DuPont to complete this project and ensure alignment with research and practice communities’ tacit knowledge and practical experience. No other funding supports this project.
-
-## Benefits to Metagov Community and Grant Alignment:
+## Benefits to Web3 Community:
 
 This research is theoretically grounded in a model of polycentric, decentralized governance of digital assets, which requires careful management of commonly held resources (aka “public goods”) for successful governance. As identified in “Open Problems in DAOs,” a persistent challenge facing fair and democratic implementation of polycentric, decentralized governance are sybils. In this context, sybils are defined as voting nodes that behave similarly because they share a common source (a unique person). In most traditional voting settings, one-person one-vote voting is easily accomplished by physically restricting repeat voting, however, in decentralized online settings, it is trivially easy to construct a new persona for every new vote and defeat controls on governance voting. Indeed, in crypto, creating a new (derived) wallet address for every new transaction is considered a privacy maximizing best practice. So, while the easy construction of sybils is a privacy benefit for users, the proliferation of sybils frustrates community managers, system designers and modellers, and social scientists, who are unable to accurately or meaningfully measure or model a governance system with sybils. My research over the last year offers a novel method to identify, label, and combine sybils into predicted ‘true identities’. 
 
