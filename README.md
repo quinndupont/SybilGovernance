@@ -35,4 +35,4 @@ Example of graph visualization of clustered graph with predicted sybils:
 
 The foundational research is already complete and the primary methods have been developed. Due to the complex, inductive nature of this research, the experimental results may not validate and the method may prove ultimately unsuccessful in practical settings. 
 
-The researcher (Dr. Quinn DuPont) has an extensive publication record in the field and has successfully completed a Gitcoin grant in the past (see here: https://cryptocarnival.wtf and forthcoming with the *Research in the Sociology of Organizations* book series). Quinn DuPont’s public financial disclosure regarding crypto is available here: http://iqdupont.com (no investment in crypto).
+Quinn DuPont’s public financial disclosure regarding crypto is available here: http://iqdupont.com (no investment in crypto).
