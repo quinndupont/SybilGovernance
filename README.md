@@ -1,6 +1,13 @@
 # SybilGovernance
 Experimental Sybil Identification Method using Graph Deep Learning
 
+# January 2024 Update
+We are pleased to have received a $15,000 grant in [Covalent API](https://www.covalenthq.com/) credits and 12 months of Premium access which will allow us to continue our sybil research. We will continue to experiment with graph walking methods in an attempt to find direct validation methods for sybils. In our preliminary research, we used the Covalent API to construct external chain graphs (on ERC-20 tokens) that we explored using fast GPU BFS. With the possibility of calling and processing billions of transactions, the Covalent API offers a potentially transformational platform for further experimentation. Our first project is to explore the graphs of individual DAOs and then to produce a new method for efficiently connecting and traversing these graphs. Additionally, we will continue to develop sybil detection methods, advancing the state of the art beyond motifs and heuristics. 
+
+This research is actively looking for additional sponsorship: currently, no salaries support the research and compute resources are paid out-of-pocket, which is a significant limiting factor. (If you can donate computing or other resources, please contact **quinndupont AT ieee.org** )
+
+Draft results of this research are available on [arXiv](https://arxiv.org/abs/2311.17929).
+
 # Proposal
 This innovative project aimed at advancing and sharing a deep learning-based method for detecting sybils in Web3 governance voting. Initially funded by York University for one year, this project has successfully led to the creation of a unique method for sybil identification. While sybils, or fabricated identities, support user privacy they come at the cost of obscuring true voting patterns, which frustrates attempts at decentralized, polycentric governance.
 
@@ -28,11 +35,11 @@ Example of size and distribution of sybil clusters:
 Example of graph visualization of clustered graph with predicted sybils:
 ![predicted sybils](https://github.com/quinndupont/SybilGovernance/blob/main/185000_clustered_graph.png?raw=true)
 
-
-
-
 ## Risks and Disclosures
 
 The foundational research is already complete and the primary methods have been developed. Due to the complex, inductive nature of this research, the experimental results may not validate and the method may prove ultimately unsuccessful in practical settings. 
 
 Quinn DuPont’s public financial disclosure regarding crypto is available here: http://iqdupont.com (no investment in crypto).
+
+# Thanks and Acknowledgements
+We would like to thank [Donncha Kavanagah](https://people.ucd.ie/donncha.kavanagh) (UCD) for early feedback and [Covalent](https://www.covalenthq.com/) for sponsorship.
