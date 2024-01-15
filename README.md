@@ -43,3 +43,4 @@ Quinn DuPont’s public financial disclosure regarding crypto is available here:
 
 # Thanks and Acknowledgements
 We would like to thank [Donncha Kavanagah](https://people.ucd.ie/donncha.kavanagh) (UCD) for early feedback and [Covalent](https://www.covalenthq.com/) for sponsorship.
+![Covalent](https://github.com/quinndupont/SybilGovernance/blob/main/covalent.png?raw=true)
