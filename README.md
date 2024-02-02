@@ -16,7 +16,7 @@ In decentralized governance systems, the presence of sybils poses substantial ch
 
 See the preprint for details [arXiv](https://arxiv.org/abs/2311.17929).
 
-E.g., cost to buy governance proposals:
+E.g., cost to buy governance proposals: ![costofproposals](https://github.com/quinndupont/SybilGovernance/blob/fb09856f474404d706f4eda976657c0ec65fb5f9/costofproposals.png)
 
 ## Impact and results:
 
