@@ -2,7 +2,8 @@
 Experimental Sybil Identification Method using Graph Deep Learning. Preprint available on [arXiv](https://arxiv.org/abs/2311.17929).
 
 # March 2024 Update
-[View Interactive 2D Plot of Clustered Anonymous Voters]([https://html-preview.github.io/?url=https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html](https://github.com/quinndupont/SybilGovernance/blob/main/2d_clustered_embeddings_umap_plot.html))
+[View Interactive 2D Plot of Clustered Anonymous Voters](https://html-preview.github.io/?url=https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)
+
 [View Interactive 2D Plot of Anonymous Voters](https://html-preview.github.io/?url=https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)
 
 # January 2024 Update
