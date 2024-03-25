@@ -2,7 +2,7 @@
 Experimental Sybil Identification Method using Graph Deep Learning. Preprint available on [arXiv](https://arxiv.org/abs/2311.17929).
 
 # March 2024 Update
-[View Interactive 3D Plot of Anonymous Voters]([(https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)])
+[View Interactive 3D Plot of Anonymous Voters](https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)
 
 # January 2024 Update
 We are pleased to have received a $15,000 grant in [Covalent API](https://www.covalenthq.com/) credits and 12 months of Premium access which will allow us to continue our sybil research. We will continue to experiment with graph walking methods in an attempt to find direct validation methods for sybils. In our preliminary research, we used the Covalent API to construct external chain graphs (on ERC-20 tokens) that we explored using fast GPU BFS. With the possibility of calling and processing billions of transactions, the Covalent API offers a potentially transformational platform for further experimentation. Our first goal is to explore the graphs of individual DAOs and then to produce a new method for efficiently connecting and traversing these graphs. Additionally, we will continue to develop sybil detection methods, advancing the state of the art beyond motifs and heuristics. 
