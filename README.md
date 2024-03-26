@@ -4,7 +4,7 @@ Experimental Sybil Identification Method using Graph Deep Learning. Preprint ava
 # March 2024 Update
 
 Image of Wallet Fingerprint Vector Embeddings for Anonymous DAO Voters
-![costofproposals](https://github.com/quinndupont/SybilGovernance/blob/fb09856f474404d706f4eda976657c0ec65fb5f9/costofproposals.png)
+![2dembeddings](https://github.com/quinndupont/SybilGovernance/blob/main/2dembeddings.png)
 
 Image of Clustered (HDBSCAN) Wallet Fingerprints for Anonymous DAO Voters
 ![costofproposals](https://github.com/quinndupont/SybilGovernance/blob/fb09856f474404d706f4eda976657c0ec65fb5f9/costofproposals.png)
