@@ -1,5 +1,23 @@
 # SybilGovernance
-Experimental Sybil Identification Method using Graph Deep Learning. Preprint available on [arXiv](https://arxiv.org/abs/2311.17929).
+Experimental Sybil Identification Method using Graph Deep Learning. 
+
+Preprint available on [arXiv](https://arxiv.org/abs/2311.17929).
+
+In the preprint, you will find:
+1. An extensive conceptual analysis of decentralized governance and a theoretical explanation of polycentric governance
+2. A literature review of DAO research
+3. An extensive conceptual analysis of Sybils
+4. Identified threat models for decentralized systems (especially Quadratic Funding/Voting)
+5. An explanation of decentralized identity systems that attempt to prevent Sybil attacks, and their limitations
+6. A literature review of deanonymization research on social networks
+7. An extensive emperical analysis of DAO governance, including:
+8. A wavelet time series analysis
+9. A novel "wallet fingerprint" method for identifying unique users (aka Sybils)
+10. A multi-layer ML model to predict Sybils
+11. A heirarchical LLM RAG method for automatically generating governance histories of crypto platforms, from Github Issues and Comments
+
+# April 2024 Update
+Currently, we are working on creating a novel method to produce a knowledge graph of crypto software developers with RAG analysis for forensic investigation of development behaviours.
 
 # March 2024 Update
 
