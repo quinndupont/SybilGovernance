@@ -17,7 +17,8 @@ In the preprint, you will find:
 11. A heirarchical LLM RAG method for automatically generating governance histories of crypto platforms, from Github Issues and Comments
 
 # April 2024 Update
-Currently, we are working on creating a novel method to produce a knowledge graph of crypto software developers with RAG analysis for forensic investigation of development behaviours.
+Currently, we are producing a knowledge graph of crypto software developers with RAG analysis for forensic investigation of development behaviours. 
+This uses a [Neo4j graph database and LLM chain](https://neo4j.com/generativeai/).
 
 # March 2024 Update
 
