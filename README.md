@@ -18,7 +18,7 @@ In the preprint, you will find:
 
 # April 2024 Update
 Currently, we are producing a knowledge graph of crypto software developers with RAG analysis for forensic investigation of development behaviours. 
-This uses a [Neo4j graph database and LLM chain](https://neo4j.com/generativeai/).
+This uses a [Neo4j graph database and LLM chain](https://neo4j.com/generativeai/), but other graph databases like [Memgraph](https://memgraph.com/knowledge-graph) are possible.
 
 # March 2024 Update
 
