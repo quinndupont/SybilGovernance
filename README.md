@@ -10,15 +10,15 @@ In the preprint, you will find:
 4. Identified threat models for decentralized systems (especially Quadratic Funding/Voting)
 5. An explanation of decentralized identity systems that attempt to prevent Sybil attacks, and their limitations
 6. A literature review of deanonymization research on social networks
-7. An extensive emperical analysis of DAO governance, including:
-8. A wavelet time series analysis
+7. An extensive empirical analysis of DAO governance, including:
+8. A wavelet time series decomposition for behavioural analysis
 9. A novel "wallet fingerprint" method for identifying unique users (aka Sybils)
 10. A multi-layer ML model to predict Sybils
 11. A heirarchical LLM RAG method for automatically generating governance histories of crypto platforms, from Github Issues and Comments
 
 # April 2024 Update
-Currently, we are producing a knowledge graph of crypto software developers with RAG analysis for forensic investigation of development behaviours. 
-This uses a [Neo4j graph database and LLM chain](https://neo4j.com/generativeai/), but other graph databases like [Memgraph](https://memgraph.com/knowledge-graph) are possible.
+We are producing a knowledge graph of crypto software development with RAG analysis for forensic investigation of user behaviours. 
+Currently, this uses a [Neo4j graph database and LLM chain](https://neo4j.com/generativeai/), but other graph databases like [Memgraph](https://memgraph.com/knowledge-graph) are possible.
 
 # March 2024 Update
 
