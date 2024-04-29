@@ -16,11 +16,9 @@ In the preprint, you will find:
 10. A multi-layer ML model to predict Sybils
 11. A heirarchical LLM RAG method for automatically generating governance histories of crypto platforms, from Github Issues and Comments
 
-# April 2024 Update
+# Current and ongoing research
 We are producing a knowledge graph of crypto software development with RAG analysis for forensic investigation of user behaviours. 
 Currently, this uses a [Neo4j graph database and LLM chain](https://neo4j.com/generativeai/), but other graph databases like [Memgraph](https://memgraph.com/knowledge-graph) are possible.
-
-# March 2024 Update
 
 Image of Wallet Fingerprint Vector Embeddings for Anonymous DAO Voters
 ![2dembeddings](https://github.com/quinndupont/SybilGovernance/blob/main/2dembeddings.png)
@@ -32,13 +30,11 @@ Image of Clustered (HDBSCAN) Wallet Fingerprints for Anonymous DAO Voters
 
 Unfortunately, these large interactive HTML files do not display in Github. Download the HTML file and open in your browser to view the Bokeh plot locally.
 
-# January 2024 Update
 We are pleased to have received a $15,000 grant in [Covalent API](https://www.covalenthq.com/) credits and 12 months of Premium access which will allow us to continue our sybil research. We will continue to experiment with graph walking methods in an attempt to find direct validation methods for sybils. In our preliminary research, we used the Covalent API to construct external chain graphs (on ERC-20 tokens) that we explored using fast GPU BFS. With the possibility of calling and processing billions of transactions, the Covalent API offers a potentially transformational platform for further experimentation. Our first goal is to explore the graphs of individual DAOs and then to produce a new method for efficiently connecting and traversing these graphs. Additionally, we will continue to develop sybil detection methods, advancing the state of the art beyond motifs and heuristics. 
 
 https://github.com/quinndupont/SybilGovernance/assets/6929744/5df91ed7-bba0-4f78-a450-ce6a06addfcb
 
 This research is actively looking for additional sponsorship. If you can donate computing or other resources, please contact **quinndupont AT ieee.org**
-
 
 # Graph Deep Learning
 In decentralized governance systems, the presence of sybils poses substantial challenges for accurately measuring user influence, decision-making, and other aspects of community structure. These spurious identities can distort the representation of user roles, creating an inaccurate picture that also makes comparisons with other Online Communities literature problematic. This research seeks to address this challenge by developing a graph deep learning method tested against a popular DAO governance forum [Snapshot.org](https://snapshot.org). Specifically, the method involves a Graph Convolutional Neural Net (GCNN) with multiple engineered feature layers that learn vector node embeddings from a voting graph to construct a “similarity” subgraph, where similar nodes are identified using a fast vector search algorithm (Facebook AI Similarity Search, aka FAISS) and relabelled into clusters. The similarity graph is then reduced by combining predicted sybils.
