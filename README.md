@@ -16,34 +16,34 @@ In the preprint, you will find:
 10. A multi-layer ML model to predict Sybils
 11. A heirarchical LLM RAG method for automatically generating governance histories of crypto platforms, from Github Issues and Comments
 
-# Current and ongoing research
-We are producing a knowledge graph of crypto software development with RAG analysis for forensic investigation of user behaviours. 
-Currently, this uses a [Neo4j graph database and LLM chain](https://neo4j.com/generativeai/), but other graph databases like [Memgraph](https://memgraph.com/knowledge-graph) are possible.
-
-Image of Wallet Fingerprint Vector Embeddings for Anonymous DAO Voters
-![2dembeddings](https://github.com/quinndupont/SybilGovernance/blob/main/2dembeddings.png)
-[Download Interactive 2D Plot of Clustered Anonymous Voters for Ten DAOs](https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)
-
-Image of Clustered (HDBSCAN) Wallet Fingerprints for Anonymous DAO Voters
-![costofproposals](https://github.com/quinndupont/SybilGovernance/blob/main/2dclustered.png)
-[Download Interactive 2D Plot of Anonymous Voters for Ten DAOs](https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)
-
-Unfortunately, these large interactive HTML files do not display in Github. Download the HTML file and open in your browser to view the Bokeh plot locally.
-
-We are pleased to have received a $15,000 grant in [Covalent API](https://www.covalenthq.com/) credits and 12 months of Premium access which will allow us to continue our sybil research. We will continue to experiment with graph walking methods in an attempt to find direct validation methods for sybils. In our preliminary research, we used the Covalent API to construct external chain graphs (on ERC-20 tokens) that we explored using fast GPU BFS. With the possibility of calling and processing billions of transactions, the Covalent API offers a potentially transformational platform for further experimentation. Our first goal is to explore the graphs of individual DAOs and then to produce a new method for efficiently connecting and traversing these graphs. Additionally, we will continue to develop sybil detection methods, advancing the state of the art beyond motifs and heuristics. 
-
-https://github.com/quinndupont/SybilGovernance/assets/6929744/5df91ed7-bba0-4f78-a450-ce6a06addfcb
-
-This research is actively looking for additional sponsorship. If you can donate computing or other resources, please contact **quinndupont AT ieee.org**
-
-# Graph Deep Learning
 In decentralized governance systems, the presence of sybils poses substantial challenges for accurately measuring user influence, decision-making, and other aspects of community structure. These spurious identities can distort the representation of user roles, creating an inaccurate picture that also makes comparisons with other Online Communities literature problematic. This research seeks to address this challenge by developing a graph deep learning method tested against a popular DAO governance forum [Snapshot.org](https://snapshot.org). Specifically, the method involves a Graph Convolutional Neural Net (GCNN) with multiple engineered feature layers that learn vector node embeddings from a voting graph to construct a “similarity” subgraph, where similar nodes are identified using a fast vector search algorithm (Facebook AI Similarity Search, aka FAISS) and relabelled into clusters. The similarity graph is then reduced by combining predicted sybils.
+
+For inquiries, please contact **quinndupont AT ieee.org**
+
+# Forensic method for investigating software engineering behaviours, aka, how crypto is made
+A PoC (with limited dataset) for an automatic Neo4J knowledge graph of crypto software development with RAG interface for forensic investigation of user behaviours. LangChain is used to extract pull requests and commits from the Bitcoin repo, construct a Neo4J knowledge graph, and then a RAG (natural language) interface queries the graph.
+
+![neo4jkg](https://github.com/quinndupont/SybilGovernance/blob/main/neo4j_KG_example.png)
+
+![RAGinterface](https://github.com/quinndupont/SybilGovernance/blob/main/KGRAG_PoC.png)
 
 ## Experiments
 
 See the preprint for details [arXiv](https://arxiv.org/abs/2311.17929).
 
-E.g., cost to buy governance proposals: ![costofproposals](https://github.com/quinndupont/SybilGovernance/blob/fb09856f474404d706f4eda976657c0ec65fb5f9/costofproposals.png)
+Forensic investigation of Wallet Fingerprint Vector Embeddings for Anonymous DAO Voters
+![2dembeddings](https://github.com/quinndupont/SybilGovernance/blob/main/2dembeddings.png)
+[Download Interactive 2D Plot of Clustered Anonymous Voters for Ten DAOs](https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)
+
+Clustered (HDBSCAN) Wallet Fingerprints for Anonymous DAO Voters
+![costofproposals](https://github.com/quinndupont/SybilGovernance/blob/main/2dclustered.png)
+[Download Interactive 2D Plot of Anonymous Voters for Ten DAOs](https://github.com/quinndupont/SybilGovernance/blob/main/2d_embeddings_umap_plot.html)
+
+Unfortunately, these large interactive HTML files do not display in Github. Download the HTML file and open in your browser to view the Bokeh plot locally.
+
+https://github.com/quinndupont/SybilGovernance/assets/6929744/5df91ed7-bba0-4f78-a450-ce6a06addfcb
+
+We are pleased to have received a $15,000 grant in [Covalent API](https://www.covalenthq.com/) credits and 12 months of Premium access which will allow us to continue our sybil research. We will continue to experiment with graph walking methods in an attempt to find direct validation methods for sybils. In our preliminary research, we used the Covalent API to e.g., determine the cost to buy governance proposals: ![costofproposals](https://github.com/quinndupont/SybilGovernance/blob/fb09856f474404d706f4eda976657c0ec65fb5f9/costofproposals.png)
 
 ## Impact and results:
 
