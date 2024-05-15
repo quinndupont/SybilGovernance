@@ -1,4 +1,4 @@
-# SybilGovernance
+# Sybil Governance
 Experimental Sybil Identification Method using Graph Deep Learning. 
 
 Preprint available on [arXiv](https://arxiv.org/abs/2311.17929).
